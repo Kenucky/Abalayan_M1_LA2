@@ -132,7 +132,7 @@ class Level2 extends Phaser.Scene {
             bomb.allowGravity = false;
         }
 
-        if(this.score >= 10){
+        if(this.score >= 200){
             this.bgMusic.stop();
             this.scene.start('Level3');
         }
